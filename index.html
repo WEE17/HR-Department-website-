@@ -1,0 +1,309 @@
+<html>  
+	<head>
+		<title>Leave Request</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+	<style>
+		#button1{
+			padding:10px;
+			background-color:blue; font-size:20px;
+			font-weight:bolder;
+			transition:background-color 2s ease 0s;}
+			#button1:hover{background-color:orange;
+		}
+
+		.thead {
+			color:#A9A9A9;
+		}
+        
+        .headspace{
+            padding-bottom:15px
+        }
+
+		ol.roman {
+			list-style-type: upper-roman;
+		}
+
+		ol.alpha {
+			list-style-type: lower-alpha;
+		}
+
+		.hiddenimg {
+			position: relative;
+			z-index: 20;
+		}
+
+		.hiddenimg span{
+			display: none;
+		}
+		.hiddenimg:hover{
+			z-index: 21;
+		}
+		.hiddenimg:hover span{
+			position: absolute;
+			display: block;
+			width: 200px;
+			padding: 5px;
+			text-decoration: none;
+			color: aqua;
+			top: 0px;
+			left: 100px;
+		}
+
+		.hiddentxt {
+			font-weight: bold;
+			color: #F00;
+		}
+
+		.hiddentxt a {
+			color: #F00;
+			text-decoration: none;
+		}
+
+		.hiddenclick {
+			font-weight: bold;
+			color: #F00;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		.hiddenclick a {
+			color: #F00;
+			text-decoration: none;
+		}
+
+		.hiddenclick a:visited {
+			color: #F00;
+			text-decoration: none;
+		}
+
+		.hiddentxt:hover ~ .hiddenimg {
+			display: block;
+		}
+        
+        td {
+            padding: 20px;
+        }
+        
+	</style>
+	<body>
+		<table border>
+			<thead class ="thead headspace">
+				<th>Leave Request</th>
+				<th>Leave Request Policies</th>
+				<th>On Leave-Vacation</th>  
+			</thead>  
+			<tbody>
+				<tr>
+<td valign="top" align="left"  width=240>
+						<form>
+							<p>
+								<label>ID No:</label>
+								<br>
+								<input ID No = "ID No" type = "text"  size = "25"  />
+								<br>
+							</p>
+							<p>
+								<label>Last Name</label> 
+								<br>
+								<input Last Name = "Last Name" type = "text" size = "25" />
+								<br>
+							</p>
+							<p>
+								<label>First Name</label> 
+								<br>
+								<input First Name = "First Name" type = "text" size = "25" />
+								<br>
+							</p>
+							<p>
+								<label>From</label>
+								<br>
+								<input From = "From" type = "text, number" size = "25" />
+								<br>
+							</p>
+							<p>
+								<label>To</label>
+								<br>
+								<input To = "To" type = "text, number" size = "25" />
+								<br>
+							</p>
+							<br>
+							<p>
+								<label>Type</label>
+								<select name= "type">
+									<option></option>
+									<option>Vacation</option>
+									<option>Sick</option>
+									<option>Study</option>
+									<option>Maternity</option>
+								</select><br><br>
+								<input type="submit" value="SUBMIT" id="button1" style="color:white; border-radius:60px;"/>
+							</p>
+						</form>
+					</td>
+					<td valign="top" align="left" width= 400>
+						<ol class="roman">
+							<li>
+								Periods of absence from duty on the ground of ill health must be
+								<br><br>
+								supported by a medical certificate signed by a duly registered medical
+								<br>
+								practitioner.
+								<br><br>
+							</li>
+							<li>
+								The certificate should be submitted within five (5) working days from
+								<br><br>
+								the first day of absence and should cover the entire of absence.
+								<br><br>
+							</li>
+							<li>
+								Where medical certificates are submitted
+								<br>
+								in support of applications for
+								<br><br>
+								leave of absence on the ground of illness, officers are required to
+								<br><br>
+								ensure that the certificates (whether issued in Jamaica or elsewhere)
+								<br><br>
+								contain the following information:
+								<br><br>
+							</li>
+						</ol>
+						<ol class="alpha">     
+							<li>Date of issue</li><br>
+							<li>Date of onset of illness</li><br>
+							<li>A statement as to whether or not the officer is unable to perform
+								<br><br>
+								his duties because of the nature of his illness and also the likely
+								<br><br>
+								duration of such illnesss.
+							</li>
+						</ol>					 
+					</td>  
+					<td>
+						<table class="table">
+							<thead>
+								<tr>
+									<th scope="col">ID No</th>
+									<th scope="col">Employee Name</th>
+									<th scope="col">Fr</th>
+									<th scope="col">To</th>
+								</tr>
+							</thead>      
+							<tbody>
+								<tr>
+									<td>
+										<a href="https://bit.ly/2Fg8e4d" class="hiddenimg">878E<span><img src="https://bit.ly/2Fg8e4d" width="250" /></span></a>
+									</td>
+									<td>SAMUELS, Allison</td>
+									<td>May 13, 2018</td>
+									<td>June 12, 2018</td>
+								</tr>
+								<tr>
+									<td>4378</td>
+									<td>SOX, Bertland</td>
+									<td>May 18, 2018</td>
+									<td>June 1, 2018</td>
+								</tr>	
+								<tr>
+									<td>8783</td>
+									<td>GREENE, Mary-Ann</td>
+									<td>Apr 5, 2018</td>
+									<td>Aug 1, 2018</td>
+								</tr>
+								<tr>
+									<td>F453</td>
+									<td>AVENUE, Sait</td>
+									<td>June 3, 2018</td>
+									<td>Oct 5, 2018</td>
+								</tr>	
+								<tr>
+									<td>672A</td>
+									<td>SAMUELS, Fraser</td>
+									<td>May 13, 2018</td>
+									<td>June 9, 2018</td>
+								</tr>
+							</tbody>
+						</table>
+						<hr>
+						<table class="table" >
+							<thead>
+								<tr>
+									<th valign="top" align="left" height="40" colspan="4" style="color:#696969">On Leisure - Sick</th>
+								</tr>
+								<tr>
+									<th>ID No</th>
+									<th align="left" height="40">Employee Name</th>
+									<th align="left" height="40">Fr</th>
+									<th align="left" height="40">To</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>F45W</td>
+									<td>YOUNIS, Eddie</td>
+									<td>May 1, 2018</td>
+									<td>June 12, 2018</td>
+								</tr>
+								<tr>
+									<td>632A</td>
+									<td>SAMUEL, William</td>
+									<td>May 13, 2018</td>
+									<td>June 9, 2018</td>
+								</tr>
+							</tbody>
+						</table>
+						<hr>
+						<table class="table">
+							<thead>
+								<tr>
+									<th align="left" height="40" colspan="4" style="color:#696969">Leave Requested & Awaiting Approval</th>
+								</tr>
+								<tr >
+									<th align="left">ID No</th>
+									<th align="left">Employee Name</th>
+									<th align="left">Type</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody >
+								<tr>
+									<td><span class="hiddentxt">
+										<p>
+											<a href="https://bit.ly/2Fg8e4d" class="hiddenimg">F483<span><img src="https://www.thedailymash.co.uk/wp-content/uploads/man-serious-2.jpg" width="250" /></span>
+										</p>
+									</td>
+									<td>AVENUE, Greg</td>
+									<td>Vacation</td>
+								</tr>
+								<tr>
+									<td>6A4A</td>
+									<td>SAMUELS, Lionel</td>
+									<td>Vacation</td>
+								</tr>
+								<tr>
+									<td>6722</td>
+									<td>GIBBS, Lancelot</td>
+									<td>Sick</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="https://bit.ly/2Fg8e4d" class="hiddenimg">6A9Z<span><img src="http://reductress.com/wp-content/uploads/2016/10/woman-outside-serious.jpg" width="250"/></span></a>
+									</td>
+									<td>ROACH, Denise</td>
+									<td>Vacation</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
