@@ -1,6 +1,7 @@
-<html>  
+<<html>  
 	<head>
 		<title>Leave Request</title>
+        
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
@@ -10,6 +11,8 @@
 	</head>
 	<style>
 		#button1{
+            color:white;
+            border-radius:60px
 			padding:10px;
 			background-color:blue; font-size:20px;
 			font-weight:bolder;
@@ -19,13 +22,15 @@
 
 		.thead {
 			color:#A9A9A9;
+            
 		}
         
-		.background {
-		          colour:
-		}
-        .headspace{
-            padding-bottom:15px
+        body  {
+                 background-color:#FFF0F5;
+        }
+        
+        th{
+            padding:20px 30px;
         }
 
 		ol.roman {
@@ -40,7 +45,7 @@
 			position: relative;
 			z-index: 20;
 		}
-
+        
 		.hiddenimg span{
 			display: none;
 		}
@@ -93,34 +98,38 @@
             padding: 20px;
         }
         
+        .right-border{
+            border-right:2px solid #000;
+        }
+        
 	</style>
 	<body>
-		<table border>
-			<thead class ="thead headspace">
-				<th>Leave Request</th>
-				<th>Leave Request Policies</th>
+		<table class="body">
+			<thead class ="thead">
+				<th class="right-border">Leave Request</th>
+				<th class="right-border"  cell-padding="400px">Leave Request Policies</th>
 				<th>On Leave-Vacation</th>  
 			</thead>  
 			<tbody>
 				<tr>
-<td valign="top" align="left"  width=240>
+<td valign="top" align="left"  width=260 class="right-border">
 						<form>
 							<p>
 								<label>ID No:</label>
 								<br>
-								<input ID No = "ID No" type = "text"  size = "25"  />
+								<input ID No = "ID No" type = "text"  size = "25" placeholder="JDH8"  />
 								<br>
 							</p>
 							<p>
 								<label>Last Name</label> 
 								<br>
-								<input Last Name = "Last Name" type = "text" size = "25" />
+								<input Last Name = "Last Name" type = "text" size = "25" placeholder="Smith"/>
 								<br>
 							</p>
 							<p>
 								<label>First Name</label> 
 								<br>
-								<input First Name = "First Name" type = "text" size = "25" />
+								<input First Name = "First Name" type = "text" size = "25" placeholder="Alex"/>
 								<br>
 							</p>
 							<p>
@@ -145,50 +154,36 @@
 									<option>Study</option>
 									<option>Maternity</option>
 								</select><br><br><br>
-								<input type="submit" value="SUBMIT REQUEST" id="button1" style="color:white; border-radius:60px;"/>
+								<input type="submit" value="SUBMIT REQUEST" id="button1"/>
 							</p>
 						</form>
 					</td>
-					<td valign="top" align="left" width= 400>
+					<td valign="top" align="left" width= "35%" class="right-border" >
 						<ol class="roman">
-							<li>
-								Periods of absence from duty on the ground of ill health must be
+							<p>Assisted Conception (IVF) Leave</p>
 								<br><br>
-								supported by a medical certificate signed by a duly registered medical
+								<li>The Trust will support employees with time off for the purpose of undergoing programmes of treatment.</li> 
 								<br>
-								practitioner.
+								<br><br>
+							<li>
+                                Employees with 12 months’ continuous service with the Trust will be entitled to a maximum of 5 days’<br> (pro-rata for part-time staff) paid time off in any 12 month period, to attend appointments and programmes of treatment. <br>There is no requirement for the time off to be taken in full-day blocks.</li> 
+								<br><br>
+								<li>Authorised unpaid leave will be granted to employees with less than 12<br>months’ continuous service with the Trust, or those who have used <br>their full paid leave allowance. Alternatives may include annual leave, or the use of flexitime. 
 								<br><br>
 							</li>
 							<li>
-								The certificate should be submitted within five (5) working days from
+								Employees must inform their line manager of their intention to take the <br>leave, giving reasonable notice of the leave. Line managers reserve the <br>right to request documentation in support of the request for leave. 
+								<br
+								Certificate should contain the following information:
 								<br><br>
-								the first day of absence and should cover the entire of absence.
-								<br><br>
-							</li>
-							<li>
-								Where medical certificates are submitted
-								<br>
-								in support of applications for
-								<br><br>
-								leave of absence on the ground of illness, officers are required to
-								<br><br>
-								ensure that the certificates (whether issued in Jamaica or elsewhere)
-								<br><br>
-								contain the following information:
-								<br><br>
-							</li>
-						</ol>
+				
 						<ol class="alpha">     
 							<li>Date of issue</li><br>
-							<li>Date of onset of illness</li><br>
-							<li>A statement as to whether or not the officer is unable to perform
-								<br><br>
-								his duties because of the nature of his illness and also the likely
-								<br><br>
-								duration of such illnesss.
-							</li>
+							<li>Date of procedure</li><br>
+							<li>A statement as to whether or not the employer is unable to perform based on the nature of the procedure.</li>
 						</ol>					 
 					</td>  
+                        
 					<td>
 						<table class="table">
 							<thead>
@@ -308,5 +303,5 @@
 				</tr>
 			</tbody>
 		</table>
-	</body>
+	</body>  
 </html>
